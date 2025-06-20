@@ -16,6 +16,9 @@
 </head>
 
 <body>
+    <div style="text-align: center; margin: 20px 0;">
+ 		<img src="logo-inovagestao" alt="InovaGestão Logo" style="height: 80px;">
+    </div>
     <section>
         <h1 style="text-align: center;margin: 50px 0;">PHP CRUD operations with MySQL</h1>
         <div class="container">
