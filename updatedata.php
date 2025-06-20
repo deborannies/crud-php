@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
 <?php
     require_once "conn.php";
     if(isset($_POST["name"]) && isset($_POST["grade"]) && isset($_POST["marks"])){
@@ -14,6 +12,9 @@
         }
     }
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -29,9 +30,11 @@
 </head>
 
 <body>
-    <div style="text-align: center; margin: 20px 0;">
- 		<img src="logo-inovagestao" alt="InovaGestão Logo" style="height: 80px;">
-    </div>
+
+	<div style="text-align: center; margin: 20px 0;">
+ 		 <img src="logo-inovagestao" alt="InovaGestão Logo" style="height: 80px;">
+</div>
+
 
     <section>
         <h1 style="text-align: center;margin: 50px 0;">Update Data</h1>
